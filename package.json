@@ -1,0 +1,68 @@
+{
+  "name": "catena-react",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@ap.cx/react-fullpage": "^0.3.0",
+    "@coinbase/wallet-sdk": "^3.5.0",
+    "@fullpage/react-fullpage": "^0.1.27",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.3.0",
+    "@testing-library/user-event": "^13.5.0",
+    "axios": "^0.27.2",
+    "dotenv": "^16.0.2",
+    "ethers": "^5.7.0",
+    "force": "^0.0.3",
+    "formik": "^2.2.9",
+    "fullpage.js": "^4.0.10",
+    "ipfs-car": "^0.8.1",
+    "nft.storage": "^7.0.0",
+    "react": "^18.2.0",
+    "react-cropper": "^2.1.8",
+    "react-dom": "^18.2.0",
+    "react-hot-toast": "^2.4.0",
+    "react-howler": "^5.2.0",
+    "react-icons": "^4.4.0",
+    "react-image-crop": "^10.0.6",
+    "react-modal": "^3.15.1",
+    "react-router-dom": "^6.3.0",
+    "react-scripts": "4.0.3",
+    "react-spinners": "^0.13.4",
+    "react-timer-hook": "^3.0.5",
+    "stream-http": "^3.2.0",
+    "styled-components": "^5.3.5",
+    "use-sound": "^4.0.1",
+    "web-vitals": "^2.1.4",
+    "web3": "^1.7.5",
+    "web3.storage": "^4.4.0",
+    "web3modal": "^1.9.8",
+    "yup": "^0.32.11"
+  },
+  "scripts": {
+    "start": "react-scripts --openssl-legacy-provider start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "moralissync": "moralis-admin-cli connect-local-devchain --chain hardhat --moralisSubdomain mjuvcvlx1w78.usemoralis.com --frpcPath ./frp/frpc.exe",
+    "moraliscloud": "moralis-admin-cli watch-cloud-folder --moralisApiKey NVybTlmu7b9WjkZ --moralisApiSecret Zmwzkucj0HDy2BZ --moralisSubdomain mjuvcvlx1w78.usemoralis.com --autoSave 1 --moralisCloudfolder ./cloudFunctions",
+    "moralislogs": "moralis-admin-cli get-logs --moralisApiKey NVybTlmu7b9WjkZ --moralisApiSecret Zmwzkucj0HDy2BZ"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
